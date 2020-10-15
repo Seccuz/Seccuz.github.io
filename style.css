@@ -1,0 +1,193 @@
+body{
+    background-color: #1f2833;
+}
+.container{
+    padding: 0 40px;
+}
+.navbar{
+    position: fixed;
+    left: 40px;
+    right: 40px;
+    top: 0px;
+    z-index: 100;
+}
+img{
+    margin-top: 15px;   
+    width: 90px;
+    height: auto;
+    float: left;
+    
+}
+.topnav{
+    float: right;
+}
+ul li a{
+    text-decoration: none;
+    color:  #c5c6c7;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    transition: 1.6 ease-in;
+}
+ul li{
+    list-style-type: none;
+    font: normal normal lighter 16px "Courier New", Courier, monospace;
+    padding: 30px 40px;
+    float: left;
+}
+ul li a:link{
+    color:  #c5c6c7;
+}
+ul li a:hover{
+    color:  #66fcf1;
+    cursor: pointer;
+}
+ul li a:active{
+    color:  #66fcf1;
+
+}
+.firstsec{
+    position: absolute;
+    top: 22%;
+    padding-left: 110px;
+    display: block;
+    
+}
+.firstsec > h4{
+    font: normal normal bolder 24px "Courier New", Courier;
+    color: #45a29e;
+    margin: 0;
+    padding: 0 0 10px 5px;
+}
+
+.firstsec > h1{
+    font: bold normal normal 75px Arial, Helevitica, sans;
+    color: #66fcf1;
+    margin: 0;
+    padding: 0;
+}
+.firstsec > p {
+    color:#8e9294;
+    font: normal normal lighter 21px "Courier New", Courier, monospace;
+    margin: 0;
+    padding: 10px 0 0 0;
+    line-height: 29px;
+}
+
+button{
+    border: 1px solid #66fcf1;
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #66fcf1;
+    font: normal normal lighter 16px "Courier New", Courier, monospace;
+    margin: 30px 0;
+}
+button:hover{
+    background-color: #66fcf22c;
+    transition: 0.3s ease-in-out;
+
+}
+button:active{
+    border: 1px solid #66fcf1;
+    color: #66fcf1;
+
+}
+#gohere2{
+    display: block;
+    position: absolute;
+    top: 100%;
+    width: 60%;
+    transform: translateX(25%);
+    padding-top: 120px;
+}
+.secondsec h1{
+    font: normal normal bolder 50px Arial, Helevitica, sans;
+    color: #66fcf1;
+    margin: 0;
+    padding: 0;
+}
+.conttwosec p {
+    font: normal normal lighter 16px "Courier New", Courier, monospace;
+    color:#8e9294;
+    margin: 0;
+    padding: 30px 0 0 0;
+}
+.conttwosec img{
+    float: right;
+    padding: 50px;
+    margin: 0 0 0 40px;
+    width: 250px;
+    height: auto;
+    padding: 60px 0 60px 40px;
+
+}
+.conttwosec{
+    overflow: auto;
+}
+#gohere3{
+    display: block;
+    position: absolute;
+    top: 200%;
+    padding-top: 120px;
+    transform: translateX(10%);
+}
+.thirdsec h1{
+    font: normal normal bolder 50px Arial, Helevitica, sans;
+    color: #66fcf1;
+    margin: 0;
+    padding: 0;
+}
+.thirdsec h2{
+    font: normal normal bolder 10px Arial, Helevitica, sans;
+    color: #66fcf1;
+    margin: auto;
+    transform: translateX(200%);
+    padding: 200px 0 ;
+}
+#gohere4{
+    display: block;
+    position: absolute;
+    top: 300%;
+    padding-top: 120px;
+    transform: translateX(20%);
+
+
+}
+.fortsec h1{
+    font: normal normal bolder 50px Arial, Helevitica, sans;
+    color: #66fcf1;
+    margin: 0;
+    padding: 0;
+}
+.fortsec h2{
+    font: normal normal bolder 10px Arial, Helevitica, sans;
+    color: #66fcf1;
+    margin: auto;
+    transform: translateX(300%);
+    padding: 200px 0 300px 0 ;
+}
+#gohere5{
+    display: block;
+    position: absolute;
+    top: 400%;
+    padding-top: 120px;
+    transform: translateX(20%);
+
+
+}
+.fifthsec h1{
+    font: normal normal bolder 50px Arial, Helevitica, sans;
+    color: #66fcf1;
+    margin: auto;
+    padding: 0;
+    transform: translateX(450%);
+    width: 50%;
+    text-align: center;
+}
+.fifthsec h2{
+    font: normal normal bolder 10px Arial, Helevitica, sans;
+    color: #66fcf1;
+    margin: auto;
+    transform: translateX(280%);
+    padding: 200px 0 300px 0 ;
+}
